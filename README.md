@@ -7,11 +7,11 @@ https://arakam.ir
 
 for this we used www.nic.ir :
 
-#install package
+# install package
 
 	pip install requests
 
-#Python
+# Python
 	
 	import requests
 
