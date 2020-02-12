@@ -7,7 +7,13 @@ https://arakam.ir
 
 for this we used www.nic.ir :
 
+#install package
+
+	pip install requests
+
 #Python
+	
+	import requests
 
 	domain_name = 'test.ir'
 	link = 'http://whois.nic.ir/WHOIS?name=' + domain_nam
