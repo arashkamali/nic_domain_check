@@ -10,11 +10,19 @@ for this we used www.nic.ir :
 #Python
 
 domain_name = 'test.ir'
-link = 'http://whois.nic.ir/WHOIS?name=' + domain_ame
+
+link = 'http://whois.nic.ir/WHOIS?name=' + domain_name
+
 response = requests.get(link)
+
 if int(response.text.find('ERROR:101:')) == -1 :
+
   print(i)
+	
   print("not availible")
+	
 else:
+
   print(i)
+	
   print("availible")
